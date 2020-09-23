@@ -2,6 +2,9 @@ name: "Hello Actions"
 description: "Greet someone"
 author: "octocat@github.com"
 
+name: Checkov Github Action
+uses: bridgecrewio/checkov-action@v13
+
 inputs:
   MY_NAME:
     description: "Who to greet"
